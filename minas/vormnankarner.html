@@ -1,0 +1,342 @@
+<!--created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Որմնանկարներ</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/vormnankarner.css" type="text/css" rel="stylesheet">
+
+    <style>
+    </style>
+
+</head>
+<body>
+
+<div class="vertical-menu">
+    <div>
+        <img src="images/minas-logo-dark.png" width="100%">
+    </div>
+    <a href="main-page.html">
+        <p class="menu-am">Գլխավոր էջ</p><p class="menu-en">Main page</p>
+    </a>
+    <a href="letters.html">
+        <p class="menu-am">Արխիվային նյութեր</p><p class="menu-en">Аrchival materials</p>
+    </a>
+    <a href="photo.html">
+        <p class="menu-am">Լուսանկարներ</p><p class="menu-en">Photos</p>
+    </a>
+    <a href="video.html">
+        <p class="menu-am">Տեսանյութեր</p><p class="menu-en">Videos</p>
+    </a>
+    <a href="vormnankarner.html" class="active">
+        <p class="menu-am">Որմնանկարչություն</p><p class="menu-en">Murals</p>
+    </a>
+    <a href="yerznkyanalbom.html">
+        <p class="menu-am">Յու. Երզնկյանի ալբոմը</p><p class="menu-en">Yu. Yerznkyan's album</p>
+    </a>
+    <a href="house.html">
+        <p class="menu-am">Մ. Ավետիսյանի թանգարան</p><p class="menu-en">M. Avetisyan Museum</p>
+    </a>
+    <br>
+</div>
+
+<div class="logo">
+    <img src="images/logo-.png" class="mincult-logo" width="150px">
+</div>
+
+    <div class="container-fluid container-main">
+        <h2 class="text-center page-header">Որմնանկարներ</h2>
+        <hr>
+        <div class="row">
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal1">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Թել են մանում», Արմենիա օդանավակայան</p>
+                        <p class="card-text text-en">"Spinning Thread", Armenia Airport</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal2">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/vahramaberd.jpg" alt="" onclick="openModal();currentSlide(2)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Հայաստան», Վահրամաբերդի մշակույթի տուն</p>
+                        <p class="card-text text-en">"Armenia", Cultural center of Vahramaberd</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal3">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/3.JPG" alt="" onclick="openModal();currentSlide(3)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Թորոս Ռոսլինի ծնունդը», Մինաս Ավետիսյանի թանգարան, Ջաջուռ</p>
+                        <p class="card-text text-en">"Birth of Toros Roslin", Minas Avetisyan Museum, Jajur</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal4">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/qaxaq1.jpg" alt="" onclick="openModal();currentSlide(4)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Հայկական հովվերգություն», ձախկողմյան հատված,  Գյումրու քաղաքապետարան</p>
+                        <p class="card-text text-en">"Armenian Pastoral", left part, Municipality of Gyumri</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal5">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/qaxaq2.jpg" alt="" onclick="openModal();currentSlide(5)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Հայկական հովվերգություն», կենտրոնական հատված, Գյումրու քաղաքապետարան</p>
+                        <p class="card-text text-en">"Armenian Pastoral", central part,  Municipality of Gyumri</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal6">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/qaxaq3.jpg" alt="" onclick="openModal();currentSlide(6)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Հայկական հովվերգություն», աջակողմյան հատված, Գյումրու քաղաքապետարան</p>
+                        <p class="card-text text-en">"Armenian Pastoral", right part, Municipality of Gyumri</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal7">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/tatron.jpg" alt="" onclick="openModal();currentSlide(7)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Աղբյուրի մոտ», Գյումրու թատրոն</p>
+                        <p class="card-text text-en">"At the wellspring", Gyumri theater</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal8">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/5.jpg" alt="" onclick="openModal();currentSlide(8)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Երկանք», Արմենիա օդանավակայան</p>
+                        <p class="card-text text-en">"Millstone", Armenia airport</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal9">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/6.jpg" alt="" onclick="openModal();currentSlide(9)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Խաչքարի մոտ», ՀՀ կառավարություն</p>
+                        <p class="card-text text-en">"At the Cross-stone", Government house</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal10">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/7.jpg" alt="" onclick="openModal();currentSlide(10)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Հանդիպում», ՀՀ կառավարություն</p>
+                        <p class="card-text text-en">"Encounter", Government house</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal11">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/azatan2.jpg" alt="" onclick="openModal();currentSlide(11)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Լեռներում», վերևի հատված, Ազատանի մշակույթի տուն</p>
+                        <p class="card-text text-en">"In the highlands", upper part, Cultural center of Azatan</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal12">
+                    <img class="card-img-top img-thumbnail center" src="vormnankarner/azatan1.jpg" alt="" onclick="openModal();currentSlide(12)">
+                    <div class="card-body">
+                        <p class="card-text text-am">«Լեռներում», ներքևի հատված, Ազատանի մշակույթի տուն</p>
+                        <p class="card-text text-en">"In the highlands", bottom part, Cultural center of Azatan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal" style="margin-left: auto; margin-right: auto">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <iframe src="vormnankarner/1.jpg" width="100%" height="620px"  onclick="plusSlides(1)"></iframe>
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/vahramaberd.jpg" >
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/3.JPG" >
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/qaxaq1.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <!--<iframe></iframe>-->
+                    <img src="vormnankarner/qaxaq2.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/qaxaq3.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <iframe src="vormnankarner/tatron.jpg" width="100%" height="620px"  onclick="plusSlides(1)"></iframe>
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/5.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/6.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="vormnankarner/7.jpg">
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <iframe src="vormnankarner/azatan2.jpg" width="100%" height="620px"  onclick="plusSlides(1)"></iframe>
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <iframe src="vormnankarner/azatan1.jpg" width="100%" height="620px"  onclick="plusSlides(1)"></iframe>
+                    <div>
+                        <p class="modal-text text-left modal-text-am"></p>
+                        <p class="modal-text text-right modal-text-en"></p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)" style="font-size: 400%">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)" style="font-size: 400%">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+//            var my = document.getAnonymousElementByAttribute('div', 'data-target', '#videoModal'+slideIndex);
+
+            var i, str;
+            var slides = document.getElementsByClassName("mySlides");
+            var cardtextsam = document.getElementsByClassName("text-am");
+            var modaltextsam = document.getElementsByClassName("modal-text-am");
+            var cardtextsen = document.getElementsByClassName("text-en");
+            var modaltextsen = document.getElementsByClassName("modal-text-en");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                str = cardtextsam[i].textContent;
+                modaltextsam[i].textContent = str;
+                str = cardtextsen[i].textContent;
+                modaltextsen[i].textContent = str;
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+
+        windowevent=window.setTimeout("goToIndex()",900000);
+        function goToIndex() {
+            window.open('index.html', "_self")
+        }
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+        <!--<script>-->
+            <!--$('.vertical-menu a:nth-of-type(6)').addClass('active');-->
+        <!--</script>-->
+
+</body>
+</html>

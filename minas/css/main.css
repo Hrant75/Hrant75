@@ -1,0 +1,106 @@
+/*created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276*/
+
+html {
+    font-family: sans-serif;
+}
+
+.page-header{
+    color: #8e2b34;
+}
+.vertical-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    background-color: #6a252f;
+    color: white;
+    border-radius: 3%;
+    border: 1px solid #6a252f;
+    padding: 7px;
+}
+
+.vertical-menu .brush{
+    position: absolute;
+    left: 250px;
+    top: 30px;
+    /*background: url("/images/a.jpg") no-repeat;*/
+    /*background: url("/images/brush.png") no-repeat;*/
+    z-index: 10000;
+}
+
+.vertical-menu a {
+    background-color: #8d2933;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    /*transform: rotate(-7deg);*/
+}
+
+.vertical-menu a:first-of-type {
+    padding-top: 20px;
+}
+.vertical-menu a .menu-am{
+    text-align: center;
+    line-height: 50%;
+}
+
+.vertical-menu a .menu-en{
+    text-align: right !important;
+    font-size: 75%;
+    line-height: 50%;
+    opacity: .5;
+    margin-bottom: 7px;
+}
+
+.vertical-menu a:hover {
+    background-color: #9d2c36;
+}
+
+.vertical-menu a.active {
+    background-color: #6a252f;
+    color: white;
+}
+.vertical-menu div{
+    margin-bottom: 7px;
+}
+.vertical-menu h6{
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+.vertical-menu a:first-of-type{
+    font-size: 110%;
+}
+.text-am, .modal-text-am, .text-am-l{
+    display: inline-block;
+    float: left;
+    width: 48%;
+    text-align: left !important;
+}
+.text-en, .modal-text-en, .text-en-l{
+    display: inline-block;
+    float: right;
+    width: 48%;
+    text-align: right !important;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    position: fixed;
+    top: 570px;
+    left: 45px;
+}
+@font-face {
+    font-family: Noto;
+    src: url(NotoSerifArmenian-Regular.ttf);
+}
+.container-main h2, .index-text{
+   font-family: 'Noto', sans-serif;
+}

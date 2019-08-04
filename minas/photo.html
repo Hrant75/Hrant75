@@ -1,0 +1,569 @@
+<!--created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Լուսանկարներ</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/photo.css" type="text/css" rel="stylesheet">
+
+    <style>
+    </style>
+
+</head>
+<body>
+
+    <div class="vertical-menu">
+        <div>
+            <img src="images/minas-logo-dark.png" width="100%">
+        </div>
+        <a href="main-page.html">
+            <p class="menu-am">Գլխավոր էջ</p><p class="menu-en">Main page</p>
+        </a>
+        <a href="letters.html">
+            <p class="menu-am">Արխիվային նյութեր</p><p class="menu-en">Аrchival materials</p>
+        </a>
+        <a href="photo.html" class="active">
+            <p class="menu-am">Լուսանկարներ</p><p class="menu-en">Photos</p>
+        </a>
+        <a href="video.html">
+            <p class="menu-am">Տեսանյութեր</p><p class="menu-en">Videos</p>
+        </a>
+        <a href="vormnankarner.html">
+            <p class="menu-am">Որմնանկարչություն</p><p class="menu-en">Murals</p>
+        </a>
+        <a href="yerznkyanalbom.html">
+            <p class="menu-am">Յու. Երզնկյանի ալբոմը</p><p class="menu-en">Yu. Yerznkyan's album</p>
+        </a>
+        <a href="house.html">
+            <p class="menu-am">Մ. Ավետիսյանի թանգարան</p><p class="menu-en">M. Avetisyan Museum</p>
+        </a>
+        <br>
+    </div>
+
+    <div class="logo">
+        <img src="images/logo-.png" class="mincult-logo" width="150px">
+    </div>
+
+    <div class="container-fluid container-main">
+        <h2 class="text-center page-header">Լուսանկարներ</h2>
+        <hr>
+        <div class="row">
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal1">
+                    <img class="card-img-top img-thumbnail center" src="photo/1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինաս Ավետիսյան, 1960-ականների սկիզբ</span>
+                        <span class="card-text text-en">Minas Avetisyan. early 1960s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal2">
+                    <img class="card-img-top img-thumbnail center" src="photo/2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինաս Ավետիսյան, 1960-ականների սկիզբ</span>
+                        <span class="card-text text-en">Minas Avetisyan. early 1960s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal3">
+                    <img class="card-img-top img-thumbnail center" src="photo/3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Հենրիկ Սիրավյանի արվեստանոցում, 1962, նստած են` Լավինիա Բաժբեուկ-Մելիքյանը, Մինաս Ավետիսյանը,
+                            Արփենիկ Ղափանցյանը, կանգնած է Հենրիկ Սիրավյանը, Սիրավյան ընտանիքի արխիվ</span>
+                        <span class="card-text text-en">In Henrik Siravyan’s studio, 1962; Lavinia Bazhbeuk-Melikian, Minas Avetisyan and Arpenik Ghapantsyan are
+                            sitting, Henrik Siravyan is standing; the Siravyan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal4">
+                    <img class="card-img-top img-thumbnail center" src="photo/4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը Մարտիրոս Սարյանի հետ</span>
+                        <span class="card-text text-en">Minas and Martiros Saryan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal5">
+                    <img class="card-img-top img-thumbnail center" src="photo/5.jpg" alt="" onclick="openModal();currentSlide(5)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը Սանկտ Պետերբուրգում</span>
+                        <span class="card-text text-en">Minas in St. Petersburg</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal6">
+                    <img class="card-img-top img-thumbnail center" src="photo/6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                    <div class="card-body">
+                        <span class="card-text text-am">«Հինգի ցուցահանդեսի» մասնակիցներ, 1962</span>
+                        <span class="card-text text-en">Participants of ''Exhibition of  the five'', 1962</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal7">
+                    <img class="card-img-top img-thumbnail center" src="photo/7.jpg" alt="" onclick="openModal();currentSlide(7)">
+                    <div class="card-body">
+                        <span class="card-text text-am">«Հինգի ցուցահանդեսի» մասնակիցներ, 1962</span>
+                        <span class="card-text text-en">Participants of ''Exhibition of  the five'', 1962</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal8">
+                    <img class="card-img-top img-thumbnail center" src="photo/8.jpg" alt="" onclick="openModal();currentSlide(8)">
+                    <div class="card-body">
+                        <span class="card-text text-am">«Հինգի ցուցահանդեսի» մասնակիցներ, 1962</span>
+                        <span class="card-text text-en">Participants of ''Exhibition of  the five'', 1962</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal9">
+                    <img class="card-img-top img-thumbnail center" src="photo/9.png" alt="" onclick="openModal();currentSlide(9)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինաս Ավետիսյան, Թբիլիսի, 1970, Երզնկյան ընտանիքի արխիվ</span>
+                        <span class="card-text text-en">Minas Avetisyan, Tbilisi, 1970, From Yerznkyan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal10">
+                    <img class="card-img-top img-thumbnail center" src="photo/10.jpg" alt="" onclick="openModal();currentSlide(10)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մարտիրոս Սարյանն ու Մինասը</span>
+                        <span class="card-text text-en">Martiros Saryan and Minas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal11">
+                    <img class="card-img-top img-thumbnail center" src="photo/11.jpg" alt="" onclick="openModal();currentSlide(11)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասն իր արվեստանոցում ընկերների հետ 1974</span>
+                        <span class="card-text text-en">Minas with his friends in the studio 1974</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal12">
+                    <img class="card-img-top img-thumbnail center" src="photo/12.jpg" alt="" onclick="openModal();currentSlide(12)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը և Ռ. Էլիբեկյանը, Ռ. Էլիբեկյանի արխիվ</span>
+                        <span class="card-text text-en">Minas and R. Elibekyan, R. Elibekyan’s archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal13">
+                    <img class="card-img-top img-thumbnail center" src="photo/13.jpg" alt="" onclick="openModal();currentSlide(13)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը և Ռոբերտ Էլիբեկյանը, 1967, Ռ. Էլիբեկյանի արխիվ</span>
+                        <span class="card-text text-en">Minas together with Robert Elibekyan, 1967, R. Elibekyan’s archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal14">
+                    <img class="card-img-top img-thumbnail center" src="photo/14.jpg" alt="" onclick="openModal();currentSlide(14)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մ. Ավետիսյան, Յու. Երզնկյան. «Խաթաբալա» ֆիլմի
+                            նկարահանումներ, Թբիլիսի, 1970, Երզնկյան ընտանիքի արխիվ</span>
+                        <span class="card-text text-en">M. Avetisyan, Yu. Yerznkyan. Shooting of the film
+                            "Khatabala", Tbilisi, 1970, From Yerznkyan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal15">
+                    <img class="card-img-top img-thumbnail center" src="photo/15.jpg" alt="" onclick="openModal();currentSlide(15)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Վերևում ձախից աջ` Մինաս, Արմեն Զարյան, Ռոբերտ Էլիբեկյան ներքևում ձախից աջ` Արմեն Մանուկյան, Ադրիանո Ալպագո Նովելլո, Մարտիրոս Ս արյան,
+                            Հերման Վահրամյան, Մարտիրոս Սարյանի արվեստանոցում, Երևան, 1969, Զարյան ընտանիքի արխիվից</span>
+                        <span class="card-text text-en">upper from left to right: Minas, Armen Zarian, Robert Elibekyan. Lower from left to right: Armen Manukyan, Adriano Alpago Nov ello, Martiros Sarian, Herman Vahramyan,
+                            in Martiros Sarian’s studio, Yerevan, 1969, From the Zarian family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal16">
+                    <img class="card-img-top img-thumbnail center" src="photo/16.jpg" alt="" onclick="openModal();currentSlide(16)">
+                    <div class="card-body">
+                        <span class="card-text text-am">ՍՍՀՄ Նկարիչների 4-րդ համագումար, Մոսկվա, 1973, Գրիգորյան ընտանիքի արխիվ</span>
+                        <span class="card-text text-en">The 4th Congress of USSR Artists, Moscow, 1973; the Grigoryan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal17">
+                    <img class="card-img-top img-thumbnail center" src="photo/17.jpg" alt="" onclick="openModal();currentSlide(17)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Պոլ Կիրակոսյանը և Մինաս Ավետիսյանը Հայաստանի պետական պատկերասրահի դիմաց, Երևան, 1972  ©Պոլ Կիրակոսյան հիմնադրամի արխիվ, Բեյրութ, Լիբանան</span>
+                        <span class="card-text text-en">Paul Guiragossian with Minas Avetisyan in front of the State Gallery of Armenia, Yerevan, 1972
+                            ©Courtesy Paul Guiragossian Foundation archives, Beirut, Lebanon</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal18">
+                    <img class="card-img-top img-thumbnail center" src="photo/18.jpg" alt="" onclick="openModal();currentSlide(18)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Ռ. Էլիբեկյան, Մ. Ավետիսյան, Յու. Երզնկյան. «Խաթաբալա» ֆիլմի նկարահանումներ, Թբիլիսի, 1970 ,
+                            Ռ. Էլիբեկյանի արխիվ</span>
+                        <span class="card-text text-en">R. Elibekyan, M. Avetisyan, Yu. Yerznkyan. Shooting of the film "Khatabala", Tbilisi, 1970,
+                            From R. Elibekyan’s archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal19">
+                    <img class="card-img-top img-thumbnail center" src="photo/19.jpg" alt="" onclick="openModal();currentSlide(19)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը ընկերների հետ 1975</span>
+                        <span class="card-text text-en">Minas with his friends 1975</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal20">
+                    <img class="card-img-top img-thumbnail center" src="photo/20.jpg" alt="" onclick="openModal();currentSlide(20)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Արծվին Գրիգորյան, Մինաս, Գրիգորյան ընտանիքի արխիվ</span>
+                        <span class="card-text text-en">Artsvin Grigoryan and Minas; the Grigoryan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal21">
+                    <img class="card-img-top img-thumbnail center" src="photo/21.jpg" alt="" onclick="openModal();currentSlide(21)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինաս Ավետիսյանը և Մարտիրոս Սարյանը, 1970, Իգիթյան ընտանիքի արխիվից</span>
+                        <span class="card-text text-en">Minas Avetisyan together with Martiros Sarian, 1970, from the Igityan family archive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal22">
+                    <img class="card-img-top img-thumbnail center" src="photo/22.jpg" alt="" onclick="openModal();currentSlide(22)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը Գեղարդում, Իգիթյան ընտանիքի արխիվից</span>
+                        <span class="card-text text-en">Minas in Geghard, from the Igityan family archiv e</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card text-center" data-toggle="modal" data-target="#videoModal23">
+                    <img class="card-img-top img-thumbnail center" src="photo/23.jpg" alt="" onclick="openModal();currentSlide(23)">
+                    <div class="card-body">
+                        <span class="card-text text-am">Մինասը արվեստանոցում</span>
+                        <span class="card-text text-en">Minas in his studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="photo/1.jpg">
+                    <div class="numbertext">1 / 25</div>
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <img src="photo/2.jpg" class="img-fluid" style=" ">
+                    <div class="numbertext">2 / 25</div>
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">3 / 25</div>
+                    <img src="photo/3.jpg" >
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">4 / 25</div>
+                    <img src="photo/4.jpg" >
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">5 / 25</div>
+                    <img src="photo/5.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">6 / 25</div>
+                    <img src="photo/6.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">7 / 25</div>
+                    <img src="photo/7.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">8 / 25</div>
+                    <img src="photo/8.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">9 / 25</div>
+                    <img src="photo/9.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">10 / 25</div>
+                    <img src="photo/10.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">11 / 25</div>
+                    <img src="photo/11.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">12 / 25</div>
+                    <img src="photo/12.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">13 / 25</div>
+                    <img src="photo/13.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">14 / 25</div>
+                    <img src="photo/14.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">15 / 25</div>
+                    <img src="photo/15.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">16 / 25</div>
+                    <img src="photo/16.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">17 / 25</div>
+                    <img src="photo/17.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">18 / 25</div>
+                    <img src="photo/18.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">19 / 25</div>
+                    <img src="photo/19.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">20 / 25</div>
+                    <img src="photo/20.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">21 / 25</div>
+                    <img src="photo/21.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">22 / 25</div>
+                    <img src="photo/22.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <div class="mySlides" onclick="plusSlides(1)">
+                    <div class="numbertext">23 / 25</div>
+                    <img src="photo/23.jpg">
+                    <div>
+                        <span class="modal-text text-left modal-text-am"></span>
+                        <span class="modal-text text-right modal-text-en"></span>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+//            var my = document.getAnonymousElementByAttribute('div', 'data-target', '#videoModal'+slideIndex);
+
+            var i, str;
+            var slides = document.getElementsByClassName("mySlides");
+            var cardtextsam = document.getElementsByClassName("text-am");
+            var modaltextsam = document.getElementsByClassName("modal-text-am");
+            var cardtextsen = document.getElementsByClassName("text-en");
+            var modaltextsen = document.getElementsByClassName("modal-text-en");
+//            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                str = cardtextsam[i].textContent;
+                modaltextsam[i].textContent = str;
+                str = cardtextsen[i].textContent;
+                modaltextsen[i].textContent = str;
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+
+        windowevent=window.setTimeout("goToIndex()",900000);
+        function goToIndex() {
+            window.open('index.html', "_self")
+        }
+    </script>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

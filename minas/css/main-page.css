@@ -1,0 +1,155 @@
+/*created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #8d2933;
+    /*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");*/
+}
+
+.main-block{
+    height: 100%;
+}
+
+.block{
+    height: 100%;
+}
+
+.block-menu{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.block-image{
+    width: 50%;
+    float: right;
+    background-color: #8d2933;
+}
+
+.menu-ul{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+.block{
+    position: relative;
+}
+li.menu-text {
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.menu-text a{
+    text-decoration: none;
+    font-size: 30px;
+    /*color: #303030;*/
+    color: white;
+    text-shadow:  1px 1px 1px #cfaac6;
+}
+.main-page-eng-text{
+    position: relative;
+    /*top: 10px;*/
+    font-size: 70%;
+    opacity: .5;
+}
+.animation-to-right {
+    animation-name: to-right;
+    animation-duration: 2s;
+    /*transform: rotate(5deg);*/
+}
+
+.animation-to-left {
+    animation-name: to-left;
+    animation-duration: 2s;
+    /*transform: rotate(-5deg);*/
+}
+
+.animation-image{
+    animation-name: image-to-left;
+    animation-duration: 5s;
+}
+
+@keyframes to-right {
+    0% {
+        right: 50px;
+        opacity: 0;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@keyframes to-left {
+    0% {
+        left: 50px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+@keyframes image-to-left {
+    0% {
+        left: 50px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.main-image{
+    display: inline-block;
+    float: right;
+}
+
+@keyframes logo-from-top {
+    0% {
+        top: -20px;
+        opacity: 0;
+    }
+    100% {
+        top: 10px;
+        opacity: 1;
+    }
+}
+.logo-mincult{
+    position: absolute;
+    display: block;
+    animation-name: logo-from-top;
+    animation-duration: 5s;
+    top: 10px;
+    left: 10px;
+    width: 140px;
+    height: 120px;
+    background-image: url("logo-horizontal-white.png") ;
+    background-size: auto 120px;
+    z-index: 1007;
+}
+
+.logo-patk{
+    position: absolute;
+    display: block;
+    animation-name: logo-from-top;
+    animation-duration: 5s;
+    top: 10px;
+    right: 50px;
+    margin-top: 10px;
+    width: 140px;
+    height: 120px;
+    background-image: url("logo-horizontal-white.png") ;
+    background-size: auto 120px;
+    background-position: 150px 0px;
+    z-index: 1007;
+}

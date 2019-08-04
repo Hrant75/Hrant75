@@ -1,0 +1,82 @@
+/*created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276*/
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-main{
+    padding-left: 250px;
+    padding-top: 50px;
+    background-color: rgb(255, 204, 171);
+    width: 100%;
+}
+
+.container-main h2{
+    position: relative;
+}
+.container-main h2:after{
+    position: absolute;
+    content: "Videos";
+    color: #6a252f;
+    opacity: 0.5;
+    font-size: 60%;
+    top: 30px;
+    right: 370px;
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    background-color: #9d2c36;
+    color: white;
+}
+.card-text{
+    text-indent: 20px;
+    font-size: 14px;
+}
+.card-text:first-letter{
+    color: #ffff96;
+    font-size: 150%;
+}
+/*.full-screen {*/
+    /*width: 70%;*/
+    /*height: 60%;*/
+    /*margin: 0;*/
+    /*top: 0;*/
+    /*left: 0;*/
+/*}*/
+.modal-dialog {
+    position: relative;
+    left: -150px;
+    top: 50px;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.modal-content {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    border-radius: 0;
+    background-color: black;
+}
+.modal .close{
+    position: absolute;
+    z-index: 1001;
+    top: 30px;
+    left: 60px;
+    color: white;
+    font-size: 3em;
+    opacity: 1;
+}
+/**:-webkit-any(video){*/
+    /*width: 1000px;*/
+/*}*/

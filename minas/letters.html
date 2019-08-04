@@ -1,0 +1,286 @@
+<!--created by Hrant Hayrapetyan "Hayrapetyan Computers" ltd 094-202276-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Արխիվային նյութեր</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/letters.css" type="text/css" rel="stylesheet">
+
+    <style>
+    </style>
+
+</head>
+<body>
+
+<div class="vertical-menu">
+    <div>
+        <img src="images/minas-logo-dark.png" width="100%">
+    </div>
+    <a href="main-page.html">
+        <p class="menu-am">Գլխավոր էջ</p><p class="menu-en">Main page</p>
+    </a>
+    <a href="letters.html" class="active">
+        <p class="menu-am">Արխիվային նյութեր</p><p class="menu-en">Аrchival materials</p>
+    </a>
+    <a href="photo.html">
+        <p class="menu-am">Լուսանկարներ</p><p class="menu-en">Photos</p>
+    </a>
+    <a href="video.html">
+        <p class="menu-am">Տեսանյութեր</p><p class="menu-en">Videos</p>
+    </a>
+    <a href="vormnankarner.html">
+        <p class="menu-am">Որմնանկարչություն</p><p class="menu-en">Murals</p>
+    </a>
+    <a href="yerznkyanalbom.html">
+        <p class="menu-am">Յու. Երզնկյանի ալբոմը</p><p class="menu-en">Yu. Yerznkyan's album</p>
+    </a>
+    <a href="house.html">
+        <p class="menu-am">Մ. Ավետիսյանի թանգարան</p><p class="menu-en">M. Avetisyan Museum</p>
+    </a>
+    <br>
+</div>
+
+<div class="logo">
+    <!--<img src="images/patkerasrah_logo.png" class="patkerasrah-logo" width="100px">-->
+    <!--<img src="images/mincult-logo.jpg" class="mincult-logo" width="100px">-->
+    <img src="images/logo-.png" class="mincult-logo" width="150px">
+</div>
+
+<div class="container-fluid container-main">
+    <h2 class="text-center page-header">Արխիվային նյութեր</h2>
+    <hr>
+    <div class="row">
+        <div class="col-4 text-center">
+            <div class="card" data-toggle="modal" data-target="#videoModal1">
+                <img class="card-img-top pic-first img-thumbnail center" src="letters/1.jpg" alt="" onclick="openModal();currentSlide(1)">
+                <div class="card-body" style="display: none;">
+                    <span class="card-text text-am">Մինասի ձեռագիր ինքնակենսագրականը, 1965 թ., ՀԱՊ
+                        ՀՁԲ, ֆ. 28, ինվ. 17520, էջ 1</span>
+                    <span class="card-text text-en">Minas’ handwritten biography, 1965, NGA
+                        MDFD, f. 28, inv. 17520, page 1</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 text-center">
+            <div class="card" data-toggle="modal" data-target="#videoModal2">
+                <img class="card-img-top img-thumbnail center" src="letters/2.jpg" alt="" onclick="openModal();currentSlide(2)">
+                <div class="card-body" style="display: none;">
+                    <span class="card-text text-am">Մինասի ձեռագիր ինքնակենսագրականը, 1965 թ., ՀԱՊ ՀՁԲ, ֆ. 28, ինվ. 17520, էջ 2</span>
+                    <span class="card-text text-en">Minas’ handwritten biography, 1965, NGA MDFD, f. 28, inv. 17520, page 2</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4 text-center">
+            <div class="card" data-toggle="modal" data-target="#videoModal3">
+                <img class="card-img-top img-thumbnail center" src="letters/3.jpg" alt="" onclick="openModal();currentSlide(3)">
+                <div class="card-body"  style="display: none;">
+                    <span class="card-text text-am">Մինասի ձեռագիր ինքնակենսագրականը, 1965 թ., ՀԱՊ ՀՁԲ, ֆ. 28, ինվ. 17520, էջ 3</span>
+                    <span class="card-text text-en">Minas’ handwritten biography, 1965, NGA MDFD, f. 28, inv. 17520, page 3</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body" style="padding-top: 0; padding-bottom: 0">
+            <p class="card-text text-am-l" style="text-align: center !important; font-size: 12px">Մինասի ձեռագիր ինքնակենսագրականը, 1965 թ., ՀԱՊ ՀՁԲ, ֆ. 28, ինվ. 17520</p>
+            <p class="card-text text-en-l" style="text-align: center !important; font-size: 12px">Minas’ handwritten biography, 1965, NGA MDFD, f. 28, inv. 17520</p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div>
+            <div class="card text-center" data-toggle="modal" data-target="#videoModal4">
+                <img class="card-img-top img-thumbnail center" src="letters/4.jpg" alt="" onclick="openModal();currentSlide(4)">
+                <div class="card-body">
+                    <span class="card-text text-am">Արխիվային փաստաթուղթ</span>
+                    <span class="card-text text-en">Archival document</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card text-center" data-toggle="modal" data-target="#videoModal5">
+                <img class="card-img-top img-thumbnail center" src="letters/5.jpg" alt="" onclick="openModal();currentSlide(5)">
+                <div class="card-body">
+                    <span class="card-text text-am">«Հինգի ցուցահանդեսի» գրքույկի շապիկը, 1962</span>
+                    <span class="card-text text-en">Cover of the book of "Exhibition of the Five", 1962</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card text-center" data-toggle="modal" data-target="#videoModal6">
+                <img class="card-img-top img-thumbnail center" src="letters/6.jpg" alt="" onclick="openModal();currentSlide(6)">
+                <div class="card-body">
+                    <span class="card-text text-am">«Հինգի ցուցահանդեսի» կատալոգ, Մ.Ավետիսյանի մակագրությունը Հենրիկ Սիրավյանին, 1962 թ., Սիրավյան ընտանիքի արխիվ</span>
+                    <span class="card-text text-en">Catalogue of "Exhibition of the Five", M. Avetisyan’s inscription for Henrik Siravyan, 1962; the Siravyan family archive</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card text-center" data-toggle="modal" data-target="#videoModal7">
+                <img class="card-img-top img-thumbnail center" src="letters/7.jpg" alt="" onclick="openModal();currentSlide(7)">
+                <div class="card-body">
+                    <span class="card-text text-am">Մինասի կարծիքն ու մաղթանքները Ռ. Էլիբեկյանի ցուցահանդեսի առթիվ, Ռ. Էլիբեկյանի արխիվ</span>
+                    <span class="card-text text-en">Minas’ views and wishes about R. Elibekyan’s exhibition; R. Elibekyan’s archive</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="card text-center" data-toggle="modal" data-target="#videoModal8">
+                <img class="card-img-top img-thumbnail center" src="letters/8.jpg" alt="" onclick="openModal();currentSlide(8)">
+                <div class="card-body">
+                    <span class="card-text text-am">Պոլ Կիրակոսյանը և Մինաս Ավետիսյանը Հայաստանի պետական պատկերասրահի դիմաց, Երևան, 1972 ©Պոլ Կիրակոսյան հիմնադրամի արխիվ, Բեյրութ, Լիբանան</span>
+                    <span class="card-text text-en">Paul Guiragossian with Minas Avetisyan in front of the State Gallery of Armenia, Yerevan, 1972 ©Courtesy Paul Guiragossian Foundation archives, Beirut, Lebanon</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <img src="letters/1.jpg">
+                <div class="numbertext">1 / 25</div>
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <img src="letters/2.jpg" class="img-fluid" style=" ">
+                <div class="numbertext">2 / 25</div>
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">3 / 25</div>
+                <img src="letters/3.jpg" >
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">4 / 25</div>
+                <img src="letters/4.jpg" >
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">5 / 25</div>
+                <img src="letters/5.jpg">
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">6 / 25</div>
+                <img src="letters/6.jpg">
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">7 / 25</div>
+                <img src="letters/7.jpg">
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <div class="mySlides" onclick="plusSlides(1)">
+                <div class="numbertext">8 / 25</div>
+                <img src="letters/8.jpg">
+                <div>
+                    <span class="modal-text text-left modal-text-am"></span>
+                    <span class="modal-text text-right modal-text-en"></span>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal() {
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+//            var my = document.getAnonymousElementByAttribute('div', 'data-target', '#videoModal'+slideIndex);
+
+        var i, str;
+        var slides = document.getElementsByClassName("mySlides");
+        var cardtextsam = document.getElementsByClassName("text-am");
+        var modaltextsam = document.getElementsByClassName("modal-text-am");
+        var cardtextsen = document.getElementsByClassName("text-en");
+        var modaltextsen = document.getElementsByClassName("modal-text-en");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            str = cardtextsam[i].textContent;
+            modaltextsam[i].textContent = str;
+            str = cardtextsen[i].textContent;
+            modaltextsen[i].textContent = str;
+        }
+        slides[slideIndex-1].style.display = "block";
+    }
+
+    windowevent=window.setTimeout("goToIndex()",900000);
+    function goToIndex() {
+        window.open('index.html', "_self")
+    }
+</script>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
